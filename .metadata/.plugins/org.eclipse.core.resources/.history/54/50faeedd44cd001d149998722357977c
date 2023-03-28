@@ -1,0 +1,13 @@
+package com.epicode.mainproject;
+
+import com.epicode.connector.DBConnection;
+
+public class GestioneDb {
+
+	public static void main(String[] args) {
+
+		DBConnection db = new DBConnection();
+
+	}
+
+}

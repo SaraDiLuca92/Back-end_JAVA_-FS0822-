@@ -1,0 +1,5 @@
+package com.epicode.connector;
+
+public class DBConnection {
+
+}

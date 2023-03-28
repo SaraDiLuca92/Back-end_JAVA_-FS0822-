@@ -1,0 +1,19 @@
+package com.epicode.mainproject;
+
+import java.sql.SQLException;
+
+import com.epicode.connector.DBConnection;
+
+public class GestioneDb {
+
+	public static void main(String[] args) {
+
+		try {
+			DBConnection db = new DBConnection();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

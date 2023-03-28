@@ -1,0 +1,20 @@
+package com.epicode.connector;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class DBConnection {
+	
+	private String url = "jdbc:postgresql://localhost:5432/";
+	private String dbName = "JDBC_java";
+	private String username = "postgres";
+	private String password = "root";
+	
+	public DBConnection() throws SQLException {
+		Connection conn =  DriverManager.getConnection(url+dbName, username, password );
+	}
+	
+	
+
+}
